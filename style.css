@@ -1,3 +1,11 @@
 .navbar a {
 	text-decoration: none;
 }
+
+.navbar li {
+	list-style-type: none;
+}
+
+li {
+	list-style-type: none;
+}
