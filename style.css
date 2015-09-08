@@ -1,9 +1,23 @@
+.navbar {
+	text-align: center;
+	background-color: #a3c5cf;
+	height: 60px;
+}
+
 .navbar a {
 	text-decoration: none;
+	color: #000;
 }
 
 .navbar li {
 	list-style-type: none;
+	display: inline;
+}
+
+.masterContainer {
+	text-align: center;
+	max-width: 100%;
+	padding-left: 100px;
 }
 
 li {
