@@ -102,6 +102,10 @@ li {
 	clear:both;
 }
 
+.myExperience h1 {
+	border: #a3c5cf;
+}
+
 #aboutleftColumn p {
 	max-width: 45%;
 	float:left;
