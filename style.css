@@ -2,6 +2,7 @@
 	text-align: center;
 	background-color: #a3c5cf;
 	height: 60px;
+	max-width: 70%
 }
 
 .navbar a {
@@ -9,17 +10,71 @@
 	color: #000;
 }
 
+.navbar a:hover {
+	color:#fff;
+}
+
 .navbar li {
 	list-style-type: none;
 	display: inline;
-}
-
-.masterContainer {
-	text-align: center;
-	max-width: 100%;
-	padding-left: 100px;
+	padding: 25px;
 }
 
 li {
 	list-style-type: none;
+}
+
+.masterContainer {
+	text-align: center;
+	max-width: 70%;
+}
+
+.myExperience li {
+	text-align: left;
+}
+
+.myEducation {
+	text-align: center;
+}
+
+.myEducation li {
+	text-align: left;
+}
+
+.aboutContainer p {
+	float: left
+}
+
+.myProjects h2 {
+	text-align: left;
+}
+
+.myProjects p {
+	text-align: left;
+}
+
+#leftcolumn p {
+	max-width: 50%;
+	float:left;
+}
+
+#rightcolumn p {
+	float:left;
+	max-width: 50%;
+}
+
+.myExperience {
+	clear:both;
+}
+
+#aboutleftColumn p {
+	max-width: 45%;
+	float:left;
+	padding: 5px;
+}
+
+#aboutrightColumn p {
+	float:left;
+	max-width: 45%;
+	padding: 5px;
 }
