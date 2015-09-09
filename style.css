@@ -5,16 +5,16 @@
 	text-align: center;
 	background-color: #a3c5cf;
 	height: 60px;
-	max-width: 100%;
+	width: 100%;
 	padding-top: 40px;
 	padding-left: 0;
+	position: fixed;
 }
 
 .navbar a {
 	text-decoration: none;
 	color: #000;
 	font-size: 19px;
-	
 }
 
 .navbar a:hover {
@@ -41,6 +41,7 @@ li {
 .myName h1 {
 	margin-bottom: 0;
 	padding-bottom: 0;
+	padding-top: 200px;
 }
 
 .myName h2 {
@@ -48,6 +49,19 @@ li {
 	padding-top: 0;
 }
 
+mySkills {
+	margin: 0 auto;
+	padding: 0 auto;
+	clear: both;
+}
+
+.mySkills a {
+	border-top-color: #a3c5cf;
+}
+
+.myExperience {
+	clear:both;
+}
 
 .myExperience li {
 	text-align: left;
@@ -104,7 +118,7 @@ li {
 
 
 #aboutleftColumn p {
-	max-width: 45%;
+	max-width: 48%;
 	float:left;
 	padding-left: 20px;
 	padding-right: 9px;
@@ -114,7 +128,7 @@ li {
 
 #aboutrightColumn p {
 	float:left;
-	max-width: 45%;
+	max-width: 48%;
 	padding-left: 9px;
 	text-align: left;
 	padding-bottom: 40px;
@@ -187,6 +201,3 @@ li {
 	color:#fff;
 }
 
-hr {
-	color: #a3c5cf;
-}
