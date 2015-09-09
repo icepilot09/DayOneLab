@@ -2,7 +2,7 @@
 	text-align: center;
 	background-color: #a3c5cf;
 	height: 60px;
-	max-width: 70%;
+	max-width: 100%;
 	padding-top: 40px;
 	padding-left: 0;
 }
@@ -30,7 +30,9 @@ li {
 
 .masterContainer {
 	text-align: center;
-	max-width: 70%;
+	max-width: 100%;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .myName h1 {
@@ -60,10 +62,6 @@ li {
 	text-align: left;
 }
 
-.aboutContainer p {
-	float: left
-}
-
 .myProjects h1 {
 	margin-top: 40px;
 }
@@ -84,9 +82,10 @@ li {
 }
 
 #leftcolumn p {
-	max-width: 45%;
 	float:left;
+	max-width: 45%;
 	text-align: left;
+	padding-right: 10px;
 	padding-left: 20px;
 	padding-bottom: 40px;
 }
@@ -95,16 +94,11 @@ li {
 	float:left;
 	max-width: 45%;
 	text-align: left;
+	padding-left: 50px;
 	padding-bottom: 40px;
 }
 
-.myExperience {
-	clear:both;
-}
 
-.myExperience h1 {
-	border: #a3c5cf;
-}
 
 #aboutleftColumn p {
 	max-width: 45%;
@@ -148,4 +142,17 @@ li {
 
 .myContact h1 {
 	margin-top: 40px;
+}
+
+#form-wrap {
+	background-color: #a3c5cf;
+	width: 500px;
+	margin: 50px auto;
+	padding: 20px auto;
+}
+
+#form-wrap form {
+	width: 400px;
+	margin: 0 auto;
+	padding: 20px 0;
 }
