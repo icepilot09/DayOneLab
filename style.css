@@ -9,6 +9,7 @@
 	padding-top: 40px;
 	padding-left: 0;
 	position: fixed;
+	margin: 0;
 }
 
 .navbar a {
@@ -41,7 +42,7 @@ li {
 .myName h1 {
 	margin-bottom: 0;
 	padding-bottom: 0;
-	padding-top: 200px;
+	padding-top: 150px;
 }
 
 .myName h2 {
@@ -72,16 +73,13 @@ mySkills {
 	clear: both;
 }
 
-.mySkills a {
-	border-top-color: #a3c5cf;
-}
 
 #leftcolumn p {
 	float:left;
 	max-width: 45%;
 	text-align: left;
 	padding-right: 10px;
-	padding-left: 20px;
+	padding-left: 120px;
 	padding-bottom: 40px;
 }
 
@@ -148,11 +146,11 @@ mySkills {
 
 .myLinks a {
 	text-decoration: none;
-	color: #000;
+	color: #a3c5cf;
 }
 
 .myLinks a:hover {
-	color: #a3c5cf;
+	color: #000;
 }
 
 .myContact h1 {
@@ -199,3 +197,6 @@ mySkills {
 	color:#fff;
 }
 
+footer p {
+	color: #a3c5cf;
+}
